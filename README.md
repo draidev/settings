@@ -1,7 +1,11 @@
 # settings
 init config or settings file
 
-## Linux
-- .vimrc
+## Linux  
+-.vimrc
 	- vi 코딩 환경 설정
 
+## SecureCRT  
+-securecrt_logon_script_.vbs
+	- SecureCRT에서su명령어로 user 바꿀때 비밀번호 자동으로 입력해주는 스크립트 파일
+	- 원격접속 Session의 Properties -> Logon Actions 체크하고 스크립트 파일 추가(스크립트 중간에 자신이 설정한 비밀번호로 수정)
