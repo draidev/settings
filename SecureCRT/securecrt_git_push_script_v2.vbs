@@ -7,9 +7,9 @@ Sub main
 
 crt.Screen.Synchronous = True
 
-nTimeout = 5
-Do while crt.Screen.WaitForString ("sername for", nTimeout)
-crt.sleep(1000)
+Do while True
+crt.Screen.WaitForString ("sername for", nTimeout)
+crt.sleep(500)
 crt.Screen.Send "자신의 깃허브 닉네임" & VbCr 
 
 crt.Screen.WaitForString "assword for"
