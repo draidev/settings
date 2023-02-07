@@ -13,11 +13,11 @@
 
 <br>   
 - ```securecrt_git_push_script_v1.vbs```  
-	- git push 할때 깃허브 아이디와 토큰 자동으로 입력해주는 스크립트  
-- ```securecrt_git_push_script_v2.vbs```  
-	- 이전 버전에서 한 번 스크립트가 실행되고 나면 다음 git push에서는 실행되지 않아서 계속 Script->run을 해줘야 함. 따라서 loop를 추가하여 한 번만 실행해도 계속 git push를 할 수 있도록 수정
+	- git push 할때 깃허브 아이디와 토큰 자동으로 입력해주는 스크립트    
+- ```securecrt_git_push_script_v2.vbs```    
+	- 이전 버전에서 한 번 스크립트가 실행되고 나면 다음 git push에서는 실행되지 않아서 계속 Script->run을 해줘야 함. 따라서 loop를 추가하여 한 번만 실행해도 계속 git push를 할 수 있도록 수정   
 
 <br>   
-## Jupyter Notebook
-- ```gpu_memory_limit.ipynb``` 
+## Jupyter Notebook   
+- ```gpu_memory_limit.ipynb```    
 	- Jupyter notebook에서 GPU를 사용하여 AI모델을 학습시킬때 최대 사용량 제한을 걸어주는 코드
