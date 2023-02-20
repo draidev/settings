@@ -20,4 +20,3 @@
 - ```gpu_memory_limit.ipynb``` 
 	- Jupyter notebook에서 GPU를 사용하여 AI모델을 학습시킬때 최대 사용량 제한을 걸어주는 코드
 	- 사용할 경우 학습속도가 느려질 수 있음      
-    
